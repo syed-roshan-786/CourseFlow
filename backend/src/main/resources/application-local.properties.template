@@ -1,0 +1,11 @@
+# MySQL Configuration - PLEASE UPDATE THIS FILE
+# Copy this file and save it as application-local.properties
+# Then update the values below with your actual MySQL credentials
+
+spring.datasource.url=jdbc:mysql://localhost:3306/courseflow_aiquiz?createDatabaseIfNotExist=true
+spring.datasource.username=root
+spring.datasource.password=Roshan@123
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
